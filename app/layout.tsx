@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Eddy Engine",
-  description: "A powerful search and translation tool",
+  description: "Eddy Engine is a powerful search platform combining AI-driven search with social media exploration. Find relevant content across multiple platforms efficiently.",
 }
 
 export default function RootLayout({
