@@ -1,12 +1,15 @@
-import "@/styles/globals.css"
+import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import type React from "react" // Import React
+import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "Eddy Engine",
-  description: "Eddy Engine is a powerful search platform combining AI-driven search with social media exploration. Find relevant content across multiple platforms efficiently.",
+export const metadata: Metadata = {
+  title: "Eddy Engine - Advanced AI and Social Media Search",
+  description:
+    "Eddy Engine is a powerful search platform combining AI-driven search with social media exploration. Find relevant content across multiple platforms efficiently.",
+  keywords:
+    "AI search, social media search, Eddy Engine, content discovery, Monica, MemFree, 秘塔, 小红书, 微信, Bilibili, 抖音",
 }
 
 export default function RootLayout({
@@ -20,7 +23,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
