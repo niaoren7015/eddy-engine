@@ -67,7 +67,7 @@ export default function EddyEngine() {
   }
 
   const handleTalkToAI = () => {
-    window.open("https://gpt.100000.best/2", "_blank")
+    window.open("https://gpt.100000.best/", "_blank")
   }
 
   return (
