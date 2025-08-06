@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Eddy Engine is a powerful search platform combining AI-driven search with social media exploration. Find relevant content across multiple platforms efficiently.",
   keywords:
     "AI search, social media search, Eddy Engine, content discovery, Monica, MemFree, 秘塔, 小红书, 微信, Bilibili, 抖音",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
